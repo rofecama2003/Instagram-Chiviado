@@ -1,5 +1,8 @@
 
-    .insta-footer {
+    .insta-footer { 
+        font-size: 12 px;
+        font-weight: bold;
+        padding: var(--padding) 0;
 
     }
 
@@ -8,15 +11,22 @@
         padding: 0;
         margin: 0;
         display: flex;
+        flex-wrap: wrap;
         justify-content: space-between;
+        color: var(--dark_blue);
+        font-weight: bold;
 
     }
 
     .insta-footer_item {
         text-transform: uppercase;
+        margin-right: var(--margin);
+        line-height: 1.5rem;
+
 
     }
 
     .insta-footer_copyright {
+        color: var(--gray_9);
 
     }
